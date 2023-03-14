@@ -1,6 +1,6 @@
 Write-Host "Azure AD Connect Sync Credential Extractor - credits go to: (@_xpn_)`n"
 
-$client = new-object System.Data.SqlClient.SqlConnection -ArgumentList "Data Source=(local);Initial Catalog=ADSync;Trusted_Connection=true"
+$client = new-object System.Data.SqlClient.SqlConnection -ArgumentList "Data Source=(local);Initial Catalog=ADSync;Trusted_Connection=true;"
 
 try {
     $client.Open()
