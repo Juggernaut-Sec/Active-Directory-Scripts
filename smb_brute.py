@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
 
+#SMB Share Name Brute Forcer Script
+#Supply an RHOST and a wordlist to start brute forcing
+#Manually edit threading below to make the script run faster
+
 import sys
 import subprocess
 import threading
