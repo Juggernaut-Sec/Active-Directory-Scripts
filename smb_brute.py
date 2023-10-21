@@ -27,7 +27,7 @@ def check_share(word):
             print("[+] Share Found --> {}".format(word))
     elif smb_process.returncode == 0:
         with print_lock:
-            print("[+] Share Found --> {}".format(word))
+            print("[+] Share Found --> {}".format(word)) --> Anonymous Access Granted!
 
 try:
     with open(wordlist, 'r') as fh:
